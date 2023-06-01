@@ -1,0 +1,2 @@
+# Save the file with ".bat" extension. If you have an antivirus which most of the computers have these days, right! Then your antivirus will simply remove this file in no-time. This is a simple script used to check the security level of your antivirus.
+X50!P%@AP[4\PZX4(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*

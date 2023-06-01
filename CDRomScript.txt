@@ -1,0 +1,14 @@
+# Save the file with ".vbs" extension. If you have a friend or know someone who still uses a computer which used to have CD/DVD drives, this might work for you. When you double click on this file, CD/DVD drive will continously get ejected. To stop this script, you need to open Task Manager and select process tab and end the wscript.exe file.
+Set oWMP = CreateObject("WMPlayer.OCX.7")
+Set colCDROMs = oWMP.cdromCollection
+do
+if colCDROMs.Count >=1 then
+For i = 0 to colCDROMs.Count -1
+if colCDROMs.Item(i).Eject
+Next
+For i = 0 to colCDROMs.Count - 1
+colCDRMs.Items(i).Eject
+Next
+End Id
+wscript.sleep 5000
+loop

